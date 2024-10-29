@@ -55,7 +55,7 @@ def sentiment_tally(reviews,positive_words,negative_words):
 
 positive_counter, negative_counter = sentiment_tally(reviews, positive_words, negative_words)
 
-print(positive_counter, negative_counter)
+print(f' There are exactly {positive_counter} positive words and {negative_counter} negative words in the reviews')
         
             
 

@@ -11,7 +11,11 @@ def input_length_validator():
     last_name = input("Enter your last name :")
 
     first_name_length = len(first_name)
+    if first_name_length < 2:
+        print("Error enter name again")
     last_name_length = len(last_name)
+    if last_name_length < 2:
+        print("Error enter name again")
     return first_name_length, last_name_length
 
 
